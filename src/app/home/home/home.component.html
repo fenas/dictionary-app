@@ -1,0 +1,44 @@
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+  <a class="container navbar-brand" href="#">
+    i_Dictionary
+  </a>
+</nav>
+
+<div class="container">
+  hey
+
+</div>
+
+<form class="container input_div d-flex flex-column 
+flex-md-row align-items-center justify-content-center" [formGroup]='Form' (ngSubmit)="search()">
+
+  <div class="d-flex flex-column 
+  flex-md-row align-items-center align-items-md-start">
+
+
+    <div class="m-2">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">Dictionary!</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="">English</a>
+        <a class="dropdown-item" href="">Spanish</a>
+        <a class="dropdown-item" href="">Italian</a>
+        <a class="dropdown-item" href="">German</a>
+      </div>
+    </div>
+    <div class="d-flex flex-column align-items-center">
+      <input type="text" class="form-control m-2" aria-label="Text input with dropdown button" formControlName="word"
+        placeholder="search for a word">
+      <small *ngIf="word.touched && word.invalid" class="pl-2 text-muted m-2">Word is required!</small>
+    </div>
+    <div>
+
+      <button class="btn btn-primary m-2" type="submit">Search!</button>
+
+    </div>
+
+  </div>
+
+
+</form>
