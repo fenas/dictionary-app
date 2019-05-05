@@ -1,3 +1,129 @@
-<p>
-  result-view works!
-</p>
+<nav class="navbar d-flex flex-row container align-item-center pt-4">
+  <a class="navbar-brand col-12 col-md-2">Word_Book</a>
+  <form
+    class="input-group input-group-sm d-flex justify-content-center align-items-center form col-12 col-md-9"
+  >
+    <input
+      type="text"
+      class="form-control border-radius"
+      aria-label="Text input with dropdown button"
+      formControlName="word"
+      placeholder="search for a word"
+    />
+    <small *ngIf="word.touched && word.invalid" class="pl-2 text-muted m-2"
+      >Word is required!</small
+    >
+    <button class="btn button border-radius btn-sm ml-2" type="submit">
+      Search
+    </button>
+    <!-- <input
+      class="form-control mr-sm-2"
+      type="search"
+      placeholder="Search"
+      aria-label="Search"
+    />
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+      Search
+    </button> -->
+  </form>
+</nav>
+
+<div class="container section1 d-flex flex-column justify-content-center">
+  <div class="italics">
+    noun
+  </div>
+
+  <div class="d-flex ">
+    <h1>
+      neibourhood!
+    </h1>
+    <i class="fas fa-volume-up m-2"></i>
+  </div>
+
+  <div class="pronounciation italics">
+    /neiborhd/
+  </div>
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus,
+    molestiae beatae architecto repellat sapiente minima harum perspiciatis ipsa
+    asperiores corrupti voluptatem neque tempore iste explicabo ab debitis
+    aliquam suscipit et.
+  </p>
+</div>
+
+<div class="container">
+  <div class="section2 row ">
+    <div class="col-12 col-md-6 p-2">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Meanings.</h5>
+          <h6 class="card-subtitle mb-2 text-muted">noun</h6>
+          <p class="card-text">
+            <span>1.</span>
+            A district or community within a town or city.
+          </p>
+          <p class="italics text-muted">
+            ‘she lived in a wealthy neighbourhood of Boston’
+          </p>
+          <h6 class="card-subtitle mb-2 text-muted">mathematics</h6>
+
+          <p class="card-text">
+            <span>2.</span>
+            The set of points whose distance from a given point is less than (or
+            less than or equal to) some value.
+          </p>
+          <p class="italics text-muted">
+            ‘she lived in a wealthy neighbourhood of Boston’
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 p-2">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Synonym.</h5>
+          <p class="card-text">
+            approximately, about, around, roughly, in the region of, of the
+            order of, not far off, nearly, almost, close to, just about,
+            practically, more or less, or so, there or thereabouts, as near as
+            dammit to
+          </p>
+          <h5 class="card-title">antonyms.</h5>
+          <p class="card-text">
+            approximately, about, around, roughly, in the region of, of the
+            order of, not far off, nearly, almost, close to, just about,
+            practically, more or less, or so, there or thereabouts, as near as
+            dammit to
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 p-2">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Phrases.</h5>
+          <h6 class="card-subtitle mb-2">in the neighbourhood of</h6>
+          <p class="card-text">
+            Approximately; about.
+          </p>
+          <p class="italics">
+            ‘the cost would be in the neighbourhood of three billion dollars’
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 p-2">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Origin.</h5>
+          <h6 class="card-subtitle mb-2">
+            Old English sum thing (see some, thing).
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

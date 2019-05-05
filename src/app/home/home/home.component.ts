@@ -22,8 +22,6 @@ export class HomeComponent implements OnInit {
   search() {
     console.log(this.word.value);
     this.httpService.getDetails();
-
-
   }
 
   get word() {

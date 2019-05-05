@@ -1,0 +1,52 @@
+.navbar-brand {
+  color: white !important;
+}
+
+/* nav {
+  width: 70px;
+} */
+
+.form {
+  width: 100%;
+}
+
+.button {
+  padding: 4px 12px;
+
+  color: white;
+  background-color: #ff5722;
+  /* margin-left: -90px !important; */
+  /* border: 1.5px solid white; */
+}
+
+.button:hover {
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* input {
+  max-width: 500px !important;
+  width: 50%;
+} */
+
+.section1 {
+  color: white;
+  height: 40%;
+}
+
+.section2 {
+  height: 50%;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.card {
+  /* width: 48%; */
+  /* max-width: 40%; */
+  height: 100%;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+}

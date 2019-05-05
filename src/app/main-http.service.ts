@@ -13,7 +13,7 @@ export class MainHttpService {
 
   httpHeader = { // api http header
     headers: new HttpHeaders({
-      // 'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Origin': '*',
       'Content-Type': 'application/json',
       app_id: 'c2e7b1fe',
       app_key: 'c36dcd311d964bfd7041f090522ec733'
@@ -25,7 +25,7 @@ export class MainHttpService {
 
   getDetails() {
 
-    this.http.get(`https://od-api.oxforddictionaries.com/api/v2/entries/en/ace`, this.httpHeader).subscribe(
+    this.http.get(`https://od-api.oxforddictionaries.com/api/v2/entries/en-us/hello`, this.httpHeader).subscribe(
       result => {
         console.log(result);
       },

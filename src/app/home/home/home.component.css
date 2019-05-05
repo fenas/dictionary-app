@@ -1,11 +1,47 @@
-.navbar {
-    color: black;
+.body {
+  height: 95%;
 }
 
-.input_div {
-    height: 500px;
+.navbar-brand {
+  color: white !important;
 }
 
-input{
-    width: 500px;
+.wrap-div {
+  width: 95%;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  width: 95%;
+}
+
+.form {
+  width: 95%;
+}
+.hint {
+  color: white;
+}
+
+.input-div {
+  width: 95%;
+}
+
+.button {
+  color: white;
+  background-color: #ff5722;
+  /* margin-left: -90px !important; */
+  border: none;
+  padding: 6px 12px;
+}
+
+.button:hover {
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+input {
+  max-width: 500px !important;
+  width: 95%;
+  border: none;
 }
